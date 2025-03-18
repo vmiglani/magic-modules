@@ -20,6 +20,7 @@ references:
   api: 'https://cloud.google.com/alloydb/docs/reference/rest/v1/projects.locations.clusters/create'
 docs:
   note: |
+    Vandana
     Users can promote a secondary cluster to a primary cluster with the help of `cluster_type`.
     To promote, users have to set the `cluster_type` property as `PRIMARY` and remove the `secondary_config` field from cluster configuration.
     [See Example](https://github.com/hashicorp/terraform-provider-google/pull/16413).
