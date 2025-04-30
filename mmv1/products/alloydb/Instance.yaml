@@ -13,7 +13,7 @@
 
 ---
 name: 'Instance'
-description: 'A managed alloydb cluster instance.'
+description: 'A managed alloydb vandana instance.'
 references:
   guides:
     'AlloyDB': 'https://cloud.google.com/alloydb/docs/'
